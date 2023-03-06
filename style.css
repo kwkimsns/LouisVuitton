@@ -1,0 +1,66 @@
+*{margin: 0; padding: 0;}
+
+.btn-outline-success{
+  color: chocolate;
+  border-color: chocolate;
+}
+
+.btn-outline-success:hover{
+  background-color: chocolate;
+  color: white;
+  border-color: chocolate;
+}
+
+.card-text{
+  font-weight: 200;
+}
+
+.card-link{
+  color: #19110b;
+  font-weight : 400;
+}
+
+.card-link:hover{
+  color: chocolate;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  position: relative;
+  padding : 40px 0
+}
+
+.footer-top{
+  width : 80%;
+  height : 80px;
+  border-bottom: 1px solid grey;
+  margin: 0 auto;
+}
+
+.footer-bottom{
+  width : 80%;
+  height : 80px;
+  margin: 0 auto;
+/*   background-color: gold; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.footer-bottom-item{
+  color: white;
+  text-decoration : none;
+  font-weight: 400;
+}
+
+.footer-bottom-item:hover{
+  color: chocolate;
+}
